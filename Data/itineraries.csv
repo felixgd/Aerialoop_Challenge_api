@@ -1,0 +1,6 @@
+itinerary ID, day starting time in milliseconds since midnight, from location, to location, flight data file
+1,25200000,UIO,CYA,flight-1.csv
+2,28200000,CYA,UIO,flight-2.csv
+3,32200000,UIO,CYA,flight-3.csv
+4,36200000,CYA,UIO,flight-4.csv
+5,50200000,UIO,CYA,flight-5.csv
