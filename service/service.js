@@ -26,7 +26,6 @@ async function GetItineraries(ID) {
     })
     .then(async (mappedData) => {
         if (!mappedData.length) {
-            console.log(mappedData['flight data'].length)
             for (let i = 0; i < mappedData['flight data'].length; i++) {
                 mappedData['flight data'][i]['PowerConsumption'] =  await calculatePowerConsumption(mappedData['flight data'][i]['BATT_VFilt'], mappedData['flight data'][i]['BATT_CFilt'])
             }
