@@ -1,4 +1,4 @@
-# Aerialoop Tech Tesh
+# Aerialoop Tech Test
 
 To run the API, run:
 ```sh
